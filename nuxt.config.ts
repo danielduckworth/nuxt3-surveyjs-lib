@@ -1,2 +1,9 @@
-// https://nuxt.com/docs/guide/directory-structure/nuxt.config
-export default defineNuxtConfig({});
+// import { defineNuxtConfig } from "nuxt3";
+
+export default defineNuxtConfig({
+  // Other configuration options...
+  plugins: [
+    // Other plugins...
+    "~/plugins/survey.ts",
+  ],
+});
